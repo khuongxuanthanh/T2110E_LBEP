@@ -9,7 +9,6 @@ int UCLN(int n, int m){
 			m = m - n;
 		}
 	}
-	printf("%d",n);
 	return n;
 }
 int BCNN(int n, int m){
@@ -22,15 +21,13 @@ int main(){
 	printf("Nhap so thu nhat: "); scanf("%d",&a);
 	printf("Nhap so thu hai: "); scanf("%d",&b);
 	
-	int q=UCLN(a,b);
 	printf("UCLN cua %d va %d: ",a,b);
-	printf("%d",q);
+	printf("%d",UCLN(a,b));
 	
 	printf("\n");
 	
-	int w=BCNN(a,b);
 	printf("BCNN cua %d va %d: ",a,b);
-	printf("%d",w);
+	printf("%d",BCNN(a,b));
 }
 
 /*
